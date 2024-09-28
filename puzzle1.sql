@@ -1,9 +1,9 @@
-CREATE TABLE lag
+CREATE TABLE [lag]
 (
-BusinessEntityID INT
-,SalesYear   INT
-,CurrentQuota  DECIMAL(20,4)
-)
+    BusinessEntityID    INT,
+    SalesYear           INT,
+    CurrentQuota        DECIMAL(20,4)
+);
 GO
  
 INSERT INTO lag
