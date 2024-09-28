@@ -5,7 +5,7 @@ CREATE TABLE [lag]
     CurrentQuota        DECIMAL(20,4)
 );
 GO
- 
+
 INSERT INTO [lag]
 SELECT 275 , 2005 , '367000.00'
 UNION ALL
